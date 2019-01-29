@@ -23,7 +23,7 @@ script:
 deploy:
   provider: script
   # script: bash ./cicd/docker_push.sh
-  script: bash docker_push
+  script: bash docker_push.sh
   on:
     branch: master  
   
