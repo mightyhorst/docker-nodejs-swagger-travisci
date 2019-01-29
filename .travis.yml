@@ -18,12 +18,12 @@ install:
 
 script: 
   - npm test 
-  # - docker-compose up --build
+  # - npm run lint
 
 deploy:
   provider: script
-  # script: bash ./cicd/docker_push.sh
-  script: bash docker_push.sh
+  script: bash cicd/docker_push.sh
+  # script: bash docker_push.sh
   on:
     branch: master  
   
