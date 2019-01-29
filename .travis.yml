@@ -17,9 +17,8 @@ install:
   - npm i 
 
 script: 
-  # - npm start
   - npm test 
-  - docker-compose up --build
+  # - docker-compose up --build
 
 deploy:
   provider: script
