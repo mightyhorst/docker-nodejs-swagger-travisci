@@ -1,3 +1,5 @@
+Starter Pack for Travis NodeJs Swagger and TravisCI 
+
 A repo to start from when developing a service using:
 * Node.js - Web Server
 * Nodemon - Autorestart
